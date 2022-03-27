@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Dela+Gothic+One&family=Lobster&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: 'Dela Gothic One';
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.box{
+    width:300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box input[type="text"]{
+    border: 0;
+    background: none;
+    margin: auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 13px 10px;
+    outline: none;
+    color: white;
+    border-radius:24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    transition: 0.25px;
+    -webkit-border-radius:24px;
+    -moz-border-radius:24px;
+    -ms-border-radius:24px;
+    -o-border-radius:24px;
+    -webkit-transition: 0.25px;
+    -moz-transition: 0.25px;
+    -ms-transition: 0.25px;
+    -o-transition: 0.25px;
+}
+
+.box input[type="text"]:focus{
+    width: 60%;
+    border-color: #ffc400ec;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transition-fade a
+{
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+.login :hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 5px 5px #2196f3, 0 0 5px 5px #2196f3, 0 0 5px 5px #2196f3;
+    transition-delay: 0.2s;
+}
